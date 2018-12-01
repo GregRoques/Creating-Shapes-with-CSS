@@ -1,0 +1,77 @@
+body{
+   
+    background: blue
+}
+
+.face{
+    margin: auto;
+    height: 400px;
+    width: 250px;
+    top: 100px;
+    left: 400px;
+    background-color:#d6d6d8;
+    border: solid black 2px; 
+    border-radius: 125px;
+    position: absolute;
+    z-index: 1;
+}
+
+.left-eye{
+    background-color: white;
+    border: solid black 2px;
+    height: 65px;
+    width: 65px;
+    top: 200px;
+    left: 440px;
+    z-index: 2;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.left-eye-ball{
+    background-color: black;
+    height: 8px;
+    width: 8px;
+    top: 230px;
+    left: 470px;
+    z-index: 3;
+    border-radius: 35px;
+    position: absolute;
+}
+
+.right-eye{
+    background-color: white;
+    border: solid black 2px;
+    height: 65px;
+    width: 65px;
+    top: 200px;
+    left: 545px;
+    z-index: 2;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.right-eye-ball{
+    background-color: black;
+    height: 8px;
+    width: 8px;
+    top: 230px;
+    left: 577px;
+    z-index: 3;
+    border-radius: 35px;
+    position: absolute;
+}
+
+.eye-brow{
+    background-color: #a9e2ff;
+    border: solid black 1px;
+    height: 20px;
+    width: 175px;
+    
+    top: 165px;
+    left:440px;
+    position: absolute;
+    border-radius: 100px / 50px;
+    z-index: 2;
+}
+   
