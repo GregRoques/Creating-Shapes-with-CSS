@@ -61,7 +61,7 @@ body{
 .square.scale{
     /* scale takes in % how large or small to make an element relative to its base size */
 
-    transform: scale(.2); 
+    transform: scale(.1); 
 }
 
 .square.skew{

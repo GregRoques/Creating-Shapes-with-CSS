@@ -1,0 +1,43 @@
+body{
+    background: #f9f;
+}
+
+.blob{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Lucid Sans';
+    border: 6px rgb(175,70,175, .8) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    border-radius: 12px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    height:60px;
+    width: 60px;
+    animation: blob 4s ease-out infinite;
+}
+
+@keyframes blob{
+    0%{
+        transform: skew(35deg);
+        left: 100px;
+        top: 100px;
+    }
+    50%{
+        transform: skew(-35deg);
+        left: 200px;
+        top: 500px;
+    }
+
+
+    100%{
+        transform: skew(35deg);
+        left: 100px;
+        top: 100px;
+    }
+
+
+}
